@@ -1,0 +1,12 @@
+import React from "react";
+
+const IconButton = ({ Icon, onClick }: { Icon: any; onClick: any }) => (
+  <span
+    className="cursor-pointer flex items-center space-x-2"
+    onClick={onClick}
+  >
+    <Icon size={22} />
+  </span>
+);
+
+export default IconButton;
